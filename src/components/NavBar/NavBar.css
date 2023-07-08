@@ -1,0 +1,44 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #353641;
+    padding: 10px;
+    color: var(--text-light);
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 16px;
+    margin-right: 10px;
+    transition: opacity 0.2s;
+  }
+  
+  .navbar-link:hover {
+    opacity: 0.8;
+  }
+  
+  .navbar-divider {
+    margin: 0 10px;
+    color: var(--text-light);
+  }
+  
+  .navbar-user {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .navbar-logout {
+    font-weight: bold;
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  
+  .navbar-logout:hover {
+    opacity: 0.8;
+  }
+  
